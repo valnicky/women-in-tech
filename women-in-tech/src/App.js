@@ -1,5 +1,5 @@
 
-import './App.css';
+import './styles/App.scss';
 import Avatar from './components/Avatar';
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
     return ( <div className = "App"
         id = "app" >
         <header className = "App-header" >
+          <h1>Women in Tech</h1>
     <Avatar id={5} name="Andrea"/>
      <Avatar id={1} name="Andra"/>
        </header> 

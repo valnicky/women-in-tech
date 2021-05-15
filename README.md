@@ -1,2 +1,3 @@
 # women-in-tech
-A project with resct, bootstrap and sass
+
+A project with react, bootstrap and sass

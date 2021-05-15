@@ -1,14 +1,20 @@
-import React from 'react';
+import React , {useState} from 'react';
+import '../styles/App.scss';
+
  function Avatar(params) {
-    const src = `../images/woman${params.id}.jpg`;
+    const [enabled, setEnabled] = useState(true); 
+    
+    const src = `/images/woman${params.id}.jpg`;
+    
+    const className = enabled ? "" : "disabled";
     return (
-        <div>
+        
         
        <picture> 
-             <img src={src} alt='' />
+             <img onClick= {()=>{setEnabled(!enabled)}} className ={className} src={src} alt='' />
         <span><em>{params.name}</em></span>
        </picture>
-        </div>
+        
     )
 }
 
