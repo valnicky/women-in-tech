@@ -7,10 +7,9 @@ import '../styles/App.scss';
     const src = `/images/woman${params.id}.jpg`;
     
     const className = enabled ? "" : "disabled";
+    
     return (
-        
-        
-       <picture> 
+       <picture className="pic"> 
              <img onClick= {()=>{setEnabled(!enabled)}} className ={className} src={src} alt='' />
         <span><em>{params.name}</em></span>
        </picture>
