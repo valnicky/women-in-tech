@@ -4,7 +4,7 @@ import '../styles/App.scss';
  function Avatar(params) {
     const [enabled, setEnabled] = useState(true); 
     
-    const src = `/images/woman${params.id}.jpg`;
+    const src = `./images/woman${params.id}.jpg`;
     
     const className = enabled ? "" : "disabled";
     
