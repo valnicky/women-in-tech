@@ -11,7 +11,7 @@ import '../styles/App.scss';
     return (
        <picture className="pic"> 
              <img onClick= {()=>{setEnabled(!enabled)}} className ={className} src={src} alt='' />
-        <span><em>{params.name}</em></span>
+        <span><em>{params.name ? enabled : "Desactivada"}</em></span>
        </picture>
         
     )
