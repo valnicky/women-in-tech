@@ -59,46 +59,4 @@ $black: #302d2d;
     transform: scale(3, 3) translate(5%, 5%);
     opacity: 1;
     z-index: 1;
-    // animation: myPic 5s 1;
-    /*   width: 400px;
-    height: 420px;
-    
-    left: 50px;
-    top: 50px;*/
-}
-
-
-/*
-@keyframes myPic {
-    0% {
-        width: 170px;
-        height: 180px;
-        opacity: 0.6;
-        left: 0px;
-        top: 0px;
-    }
-    50% {
-        width: 400px;
-        height: 420px;
-        opacity: 0.8;
-        left: 50px;
-        top: 50px;
-    }
-    100% {
-        width: 400px;
-        height: 420px;
-        opacity: 0.8;
-        left: 50px;
-        top: 50px;
-    }
-}
-*/
-
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
 }
